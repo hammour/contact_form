@@ -1,0 +1,29 @@
+{
+  "name": "contactform",
+  "version": "1.0.0",
+  "description": "assignment one out of two for day 16",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hammour/contact_form.git"
+  },
+  "keywords": [
+    "assignment",
+    "TIY",
+    "day-16",
+    "contact-form"
+  ],
+  "author": "Haythem Hammour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hammour/contact_form/issues"
+  },
+  "homepage": "https://github.com/hammour/contact_form#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.2"
+  }
+}
