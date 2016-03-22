@@ -24,6 +24,7 @@
   "homepage": "https://github.com/hammour/contact_form#readme",
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "jquery": "^2.2.2"
+    "jquery": "^2.2.2",
+    "normalize.css": "^4.0.0"
   }
 }

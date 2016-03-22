@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
+	
+	<link rel="stylesheet" type="text/css" href="jquery/node_modules/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	<title>Contact Form</title>
 </head>
 <body>
+	<section class=" main_body">
+		<nav>
+			<div class="page-header">
+				<h1>Contact US</h1>
+			</div>
+		</nav>
+		<form>
+				<div id="nameField" class="form-group">
+					<label for="inputName">Name</label>
+					<input type="text" class="form-control" id="inputName" placeholder="Haythem Hammour">
+					<div id="message1"></div>
+				</div>
+				<div id="emailField" class="form-group">
+					<label for="inputEmail">Email address</label>
+					<input type="text" class="form-control" id="inputEmail" placeholder="hammour@gmail.com" >
+					<div id="message2"></div>
+				</div>
+				<div id="websiteField" class="form-group">
+					<label for="websiteInput">Wbsite</label>
+					<input type="text" class="form-control" id="inputWebsite" placeholder="http://hammour.net">
+					<div id="message3"></div>
+				</div>
+				<div id="textAreaField"class="form-group">
+					<label for="text"> Message
+					<textarea id="inputMessage" class="form-control" rows="15"></textarea>
+					<div id="message4"></div>
+					</label>
+				</div>
+				 <button id="button" type="Submit" class="btn btn-primary btn-lg">Submit</button>
+
+			</form>
+		</div>
+	</section>
 
 
-<script type="text/javascript" src="jquery/node_modules/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="scripts/main.js"></script>
+
+
+
+
+<!--xxxxxxxxxxxxxjava/jQuery linikg filesxxxxxxxxxxxxxxxxx -->
+	<script type="text/javascript" src="jquery/node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>
