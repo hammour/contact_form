@@ -117,7 +117,13 @@ formEL.on('submit',function(e){
 										}
 										else{
 										storeData();
-										clearFields();
+										//clearFields();
+										$('.main_body').replaceWith( '<section><h4>Thanks for contacting us '+inputNameEl.val()+'. We Have recieved your message and will be in touch with you shortly</h4></section>' );
+										$('section').css('background-color', 'white');
+										$('section').css('margin', '4em');
+										$('section').css('max-width', '50em');
+										$('section').css('padding', '1em');
+	
 }
 
 })
